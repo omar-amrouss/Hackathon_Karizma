@@ -31,3 +31,14 @@ Mise en place de la base de donnée
 La base de donnée est en principe déjà configurée et prête à être utilisée cependant vous pouvez à tout moment la réinitialiser et la re-populer avec les commandes suivantes:
 
 php artisan migrate:fresh php artisan db:seed
+
+Une fois toute les étapes précédentes effectuées vous pouvez à présent lancer le serveur local avec la commande : php artisan serve
+Il ne vous restera plus qu'à aller sur http://127.0.0.1:8000/ pour visiter le site web.
+
+Pour vous connecter en tant qu'administrateur il vous suffit de rentrer ces identifiants :
+
+email : admin@admin.com
+
+password: adminadmin
+
+Pour vous connecter en utilisateur alpha, vous pouvez créer un utilisateur via le bouton 'register'.
